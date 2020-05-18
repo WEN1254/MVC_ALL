@@ -1,0 +1,89 @@
+.SIGN {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 15px;
+}
+
+.SIGN a {
+    color: black;
+    text-decoration: none;
+}
+
+.SIGN a:hover {
+    color: gray;
+}
+
+.collapse a {
+    color: black;
+}
+
+.collapse .search {
+    padding: 0 30px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+/* 分隔 */
+.announcement {
+    width: 100%;
+    position: sticky;
+    top: 70px;
+    z-index: 1;
+    background-color: rgb(24, 33, 71);
+    color: white;
+    text-align: center;
+}
+
+.announcement a {
+    color: white;
+}
+.product_name{
+    margin: 0 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.product_name_home{
+    text-align: left;
+}
+.product_name_home a,.product_name_home a:hover{
+    color: black;
+    text-decoration: none;
+}
+.product_name p{ 
+    font-size: 60px;
+}
+
+ .storeby {
+    text-align: right;
+    padding: 10px 0;
+
+}
+.product_list {
+    display: flex;
+    padding: 0 16px;
+}
+
+.product_a {
+    color: black;
+}
+
+.product_a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.img {
+    text-align: center;
+}
+
+.card-img-top {
+    width:90%;
+}
+
+.card {
+    border: 0px;
+}

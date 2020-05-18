@@ -1,0 +1,47 @@
+
+.product_name{
+    margin: 0 16px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+.product_name_home{
+    text-align: left;
+}
+.product_name_home a,.product_name_home a:hover{
+    color: black;
+    text-decoration: none;
+}
+.product_name p{ 
+    font-size: 60px;
+}
+
+ .storeby {
+    text-align: right;
+    padding: 10px 0;
+
+}
+.product_list {
+    display: flex;
+    padding: 0 16px;
+}
+
+.product_a {
+    color: black;
+}
+
+.product_a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.img {
+    text-align: center;
+}
+
+.card-img-top {
+    width:90%;
+}
+
+.card {
+    border: 0px;
+}

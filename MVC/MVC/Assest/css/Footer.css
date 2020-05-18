@@ -1,0 +1,53 @@
+.footer {
+    background-color: #333;
+    padding: 20px;
+    width: 100%;
+}
+
+.top-column {
+    display: flex;
+}
+
+.column-content {
+    text-align: center;
+}
+
+i {
+    font-size: 25px;
+    transition: .3s;
+    border-radius: 50%;
+}
+
+    i:hover {
+        background-color: #fff;
+        color: #333;
+        transform: scale(1.2);
+        border-radius: 60%;
+    }
+
+.icon-list {
+    margin: auto;
+}
+
+.column-content .menu a {
+    text-decoration: none;
+    display: flex;
+    color: #999;
+}
+
+    .column-content .menu a:hover {
+        color: #fff;
+    }
+
+.menu {
+    margin: auto;
+}
+
+.column-content .title {
+    margin-bottom: 20px;
+}
+
+.title h3 {
+    font-size: 18px;
+    color: #999
+}
