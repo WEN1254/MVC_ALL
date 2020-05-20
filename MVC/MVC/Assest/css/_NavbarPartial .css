@@ -39,6 +39,19 @@ input {
         border: none;
         background: rgb(253,253,253);
     }
+.transparent {
+    position: fixed;
+    height: 1000px;
+    width: 1660px;
+    background-color: white;
+    opacity: 0.7;
+    top: 0px;
+    right: -1660px;
+}
+
+input:checked ~ .transparent {
+    right: 300px;
+}
 
 
 
