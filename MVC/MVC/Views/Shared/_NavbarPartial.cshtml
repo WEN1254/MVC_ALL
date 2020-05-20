@@ -58,8 +58,22 @@
 
         <a href="" class="search"><i class="fas fa-search"></i></a>
 
-        <a href=""><i class="fas fa-shopping-cart"></i></a>
+        @*<a href=""><i class="fas fa-shopping-cart"></i></a>*@
+        <input type="checkbox" id="check">
 
+        <button id="btn" for="check" onclick="shop()">
+            <i class="fas fa-shopping-cart"></i>
+        </button>
+        <div class="shop" id="shop">
+            <button id="close" type="button" class="close" aria-label="Close" onclick="shop()">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h3>購物車</h3>
+            <p>椅子*1 $100</p>
+            <hr>
+            <p>總價:$100</p>
+
+        </div>
 
 
     </div>
