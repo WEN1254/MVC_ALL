@@ -176,6 +176,7 @@
     <Content Include="Assest\css\Carousel.css" />
     <Content Include="Assest\js\Carousel.js" />
     <Content Include="Assest\js\slick.min.js" />
+    <Content Include="Assest\js\ProductList.js" />
     <Compile Include="Controllers\AboutUsController.cs" />
     <Compile Include="Controllers\AccessoriesIntroductionController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
