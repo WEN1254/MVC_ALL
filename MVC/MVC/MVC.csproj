@@ -170,7 +170,12 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Content Include="Assest\css\_NavbarPartial .css" />
+    <Content Include="Assest\js\jquery-3.4.1.min.js" />
     <Content Include="Assest\js\_NavbarPartial.js" />
+    <Content Include="Assest\css\slick.css" />
+    <Content Include="Assest\css\Carousel.css" />
+    <Content Include="Assest\js\Carousel.js" />
+    <Content Include="Assest\js\slick.min.js" />
     <Compile Include="Controllers\AboutUsController.cs" />
     <Compile Include="Controllers\AccessoriesIntroductionController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
@@ -378,6 +383,7 @@
     <Content Include="Views\Lighting\Index.cshtml" />
     <Content Include="Views\Outdoor\Index.cshtml" />
     <Content Include="Views\Outlet\Index.cshtml" />
+    <Content Include="Views\Shared\_Carousel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
