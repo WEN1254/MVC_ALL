@@ -1,12 +1,14 @@
 ﻿.for_slick_slider {
     display: flex;
+    padding:30px 15px;
 }
 
     .for_slick_slider .items {
         /*width: 350px;
-        height: 250px;
-        margin: 50px;*/
+        height: 250px;*/
+        
         position: relative;
+
     }
 
         .for_slick_slider .items .overlay {
@@ -30,6 +32,6 @@
         transition: all linear .5s;
     }
 
-    .for_slick_slider .slick-center img {
+    /*.for_slick_slider .slick-center img {
         transform: scale(1.1);
-    }
+    }*/
