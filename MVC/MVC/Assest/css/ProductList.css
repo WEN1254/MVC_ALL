@@ -93,19 +93,21 @@
 }
 /* ¤À¹j */
 .match {
-    background-color: white;
-
+    border-radius:10px;
+    background-color: #000;
     position: absolute;
     z-index: 1;
-    top: 405px;
+    top: 425px;
     left: -240px;
-    height: 1500px;
     width: 240px;
-    transition: .2s;
-}
+    transition:.2s;
+    }
 
     .match button {
         margin-left: 13px;
+        border:none;
+        background:#000;
+        color:#fff;
     }
 
 input:checked ~ .match {
