@@ -6,6 +6,7 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using MVC.Models;
+using Microsoft.Owin.Security.Facebook;
 
 namespace MVC
 {
@@ -53,11 +54,30 @@ namespace MVC
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
             //   consumerSecret: "");
+            var options = new FacebookAuthenticationOptions
+            {
+                AppId = "575444046741174",
+                AppSecret = "7e94557ea007d42dee1971b3547765ff",
+                CallbackPath = new PathString("/Account/ExternalLoginCallback/"),
+                Provider = new FacebookAuthenticationProvider
+                {
+                    OnAuthenticated = async context =>
+                    {
+                        // Retrieve the OAuth access token to store for subsequent API calls
+                        string accessToken = context.AccessToken;
 
+                        // Retrieve the username
+                        string facebookUserName = context.UserName;
+
+                        // You can even retrieve the full JSON-serialized user
+                        var serializedUser = context.User;
+                    }
+                }
+            };
+            app.UseFacebookAuthentication(options);
             //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
-
+            //   appId: "575444046741174",
+            //   appSecret: "7e94557ea007d42dee1971b3547765ff");
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
             //    ClientId = "",
