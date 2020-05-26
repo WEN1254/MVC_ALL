@@ -54,30 +54,11 @@ namespace MVC
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
             //   consumerSecret: "");
-            var options = new FacebookAuthenticationOptions
-            {
-                AppId = "575444046741174",
-                AppSecret = "7e94557ea007d42dee1971b3547765ff",
-                CallbackPath = new PathString("/Account/ExternalLoginCallback/"),
-                Provider = new FacebookAuthenticationProvider
-                {
-                    OnAuthenticated = async context =>
-                    {
-                        // Retrieve the OAuth access token to store for subsequent API calls
-                        string accessToken = context.AccessToken;
 
-                        // Retrieve the username
-                        string facebookUserName = context.UserName;
+            app.UseFacebookAuthentication(
+               appId: "2982558041822875",
+               appSecret: "bf8d77166e6ee6de1c17d8600fc656c7");
 
-                        // You can even retrieve the full JSON-serialized user
-                        var serializedUser = context.User;
-                    }
-                }
-            };
-            app.UseFacebookAuthentication(options);
-            //app.UseFacebookAuthentication(
-            //   appId: "575444046741174",
-            //   appSecret: "7e94557ea007d42dee1971b3547765ff");
             app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             {
                 ClientId = "977134379098-14b98d76se9kflelpajl3fmjo5gs9i6c.apps.googleusercontent.com",

@@ -170,6 +170,8 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Content Include="Assest\css\_NavbarPartial .css" />
+    <Content Include="Assest\img\下載.png" />
+    <Content Include="Assest\img\登入背景.jpg" />
     <Content Include="Assest\js\jquery-3.4.1.min.js" />
     <Content Include="Assest\js\_NavbarPartial.js" />
     <Content Include="Assest\css\slick.css" />
@@ -339,7 +341,7 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Shared\_ExternalLoginsListPartial.cshtml" />
     <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
     <Content Include="Views\Account\ExternalLoginFailure.cshtml" />

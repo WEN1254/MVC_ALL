@@ -4,14 +4,14 @@
     padding: 0 15px;
 }
 
-.SIGN a {
-    color: black;
-    text-decoration: none;
-}
+    .SIGN a {
+        color: black;
+        text-decoration: none;
+    }
 
-.SIGN a:hover {
-    color: gray;
-}
+        .SIGN a:hover {
+            color: gray;
+        }
 
 .collapse a {
     color: black;
@@ -26,6 +26,7 @@
     top: 0px;
     z-index: 2;
 }
+
 input {
     display: none;
 }
@@ -37,8 +38,9 @@ input {
 
     .collapse #btn {
         border: none;
-        background: rgb(253,253,253);
+       
     }
+
 .transparent {
     position: fixed;
     height: 1000px;
@@ -81,30 +83,34 @@ input:checked ~ .shop {
     text-align: center;
 }
 
-.announcement a {
-    color: white;
-}
-.product_name{
+    .announcement a {
+        color: white;
+    }
+
+.product_name {
     margin: 0 16px;
     border-bottom: 1px solid #ddd;
     text-align: center;
 }
-.product_name_home{
+
+.product_name_home {
     text-align: left;
 }
-.product_name_home a,.product_name_home a:hover{
-    color: black;
-    text-decoration: none;
-}
-.product_name p{ 
+
+    .product_name_home a, .product_name_home a:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+.product_name p {
     font-size: 60px;
 }
 
- .storeby {
+.storeby {
     text-align: right;
     padding: 10px 0;
-
 }
+
 .product_list {
     display: flex;
     padding: 0 16px;
@@ -114,19 +120,173 @@ input:checked ~ .shop {
     color: black;
 }
 
-.product_a:hover {
-    color: black;
-    text-decoration: none;
-}
+    .product_a:hover {
+        color: black;
+        text-decoration: none;
+    }
 
 .img {
     text-align: center;
 }
 
 .card-img-top {
-    width:90%;
+    width: 90%;
 }
 
 .card {
     border: 0px;
+}
+/*分隔*/
+.navbar-brand img {
+    width: 40px;
+    height: 5ex;
+}
+
+.active {
+    color: #000;
+}
+
+    .active a {
+        color: #000;
+        border-bottom: 1px solid transparent;
+        transition: .2s;
+    }
+
+        .active a:hover {
+            color: #87A0B2;
+            border-bottom: 1px solid#87A0B2;
+        }
+
+.nav_icon {
+    font-size: 18px;
+}
+
+    .nav_icon i {
+        margin: 10px;
+        color: #fff;
+        transition: .2s;
+    }
+
+        .nav_icon i:hover {
+            color: #87A0B2;
+        }
+
+/*分隔*/
+* {
+    font-family: "Helvetica", "Arial", "LiHei Pro", "黑體-繁", "微軟正黑體", sans-serif;
+}
+
+.modal-body {
+    width: 520px;
+    height: 600px;
+    border: 1px solid #666;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url(https://walpa.tw/upload/save_image/11191700_5dd3a12367c5f.jpg);
+    background-size: cover;
+}
+
+i {
+    color: #000;
+}
+
+
+
+.account input {
+    font-size: 14px;
+    border: 1px solid#ccc;
+    border-radius: 3px;
+    background-color: rgba(246, 245, 245, 0.849);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 258px;
+    height: 36px;
+}
+
+.name input {
+    font-size: 14px;
+    border: 1px solid#ccc;
+    border-radius: 3px;
+    background-color: rgba(246, 245, 245, 0.849);
+    margin-top: 10px;
+    width: 126px;
+    height: 36px;
+}
+
+.date input {
+    font-size: 14px;
+    border: 1px solid#ccc;
+    border-radius: 3px;
+    background-color: rgba(246, 245, 245, 0.849);
+    margin-top: 10px;
+    width: 258px;
+    height: 36px;
+}
+
+.modal-body img {
+    width: 75px;
+    height: 125px;
+}
+
+.modal-body .login {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 258px;
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgba(246, 245, 245, 0.849);
+}
+
+.other {
+    margin: 15px auto;
+    width: 258px;
+}
+
+    .other i {
+        font-size: 50px;
+    }
+
+    .other .fa-facebook {
+        color: #3b5998;
+    }
+
+    .other .fa-google-plus {
+        color: #dd4b39;
+    }
+
+.linear {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+    .linear .line {
+        display: inline-block;
+        width: 30%;
+        border-top: 1px solid #666;
+    }
+
+    .linear .txt {
+        font-weight: 600;
+        color: #666;
+        vertical-align: middle;
+    }
+
+.sign_up a {
+    text-decoration: none;
+    font-weight: 600;
+}
+#btn {
+    background: #343a40;
+}
+#Google{
+    background: red;
+}
+
+#Facebook {
+    background: blue;
 }
