@@ -78,11 +78,11 @@ namespace MVC
             //app.UseFacebookAuthentication(
             //   appId: "575444046741174",
             //   appSecret: "7e94557ea007d42dee1971b3547765ff");
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "977134379098-14b98d76se9kflelpajl3fmjo5gs9i6c.apps.googleusercontent.com",
+                ClientSecret = "UTE3mMfVBfmiddhteVAI569_"
+            });
         }
     }
 }
