@@ -185,7 +185,9 @@
     <link href="~/Assest/css/slick.css" rel="stylesheet" />
     <link href="~/Assest/css/MvcHome.css" rel="stylesheet" />
     <link href="~/Content/Chart.css" rel="stylesheet" />
+
     <style type="text/css">
+
     </style>
 }
 @section endJS{
@@ -193,7 +195,19 @@
     <script src="~/Assest/js/Carousel.js"></script>
     <script src="~/Scripts/Chart.js"></script>
     <script type="text/javascript">
+        var google=document.getElementById('Google');
+    var facebook=document.getElementById('Facebook');
+    var i_g=document.createElement("i");
+    var i_f=document.createElement("i");
+    i_g.setAttribute("class","fab fa-google-plus");
+    
+    google.innerHTML=" ";
+    google.appendChild(i_g);
 
+    i_f.setAttribute("class","fab fa-facebook");
+    
+    facebook.innerHTML=" ";
+    facebook.appendChild(i_f);
 
 
 
