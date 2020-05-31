@@ -18,7 +18,12 @@ namespace MVC
                 url: "MvcHome",
                 defaults: new { controller = "MvcHome", action = "Index", id = UrlParameter.Optional }
             );
-          
+           // routes.MapRoute(
+           //    name: "SofaProduct",
+           //    url: "SofasIntroduction/{controller}}/{action}/{id}",
+           //    defaults: new { controller = "LivingSofasAndSleeper", action = "Index", id = UrlParameter.Optional }
+           //);
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
